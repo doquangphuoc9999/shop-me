@@ -54,6 +54,7 @@ public class AppConfig extends WebMvcConfigurerAdapter implements ApplicationCon
         templateResolver.setApplicationContext(applicationContext);
         templateResolver.setPrefix("/WEB-INF/views/");
         templateResolver.setSuffix(".html");
+        System.out.println("hello word");
         templateResolver.setTemplateMode(TemplateMode.HTML);
         templateResolver.setCharacterEncoding("UTF-8");
         return templateResolver;
